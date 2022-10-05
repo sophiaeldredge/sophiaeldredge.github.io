@@ -1,0 +1,62 @@
+<style>
+    h1 {
+        text-align: center;
+    }
+    body {
+        background: rgb(187, 222, 251);
+    } 
+    #mainContent {
+        background-color:rgb(255, 224, 178);
+        border-style: soild;
+        border-width: 2px;
+        border-color: black;
+        text-align: center;
+    }
+
+    #mainContient {
+        text-align: center;
+    }
+
+    a:link {
+        color: blue
+      }
+      
+    a:visited {
+        color: yellow
+      }
+    
+    a:hover {
+        color:rgb(177, 7, 7)
+    } 
+
+    a:active {
+        color: blue;
+      }
+    .datDog {
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+    }
+    #datTitle {
+        text-align: center;
+        color: red;
+    }
+    #webTitle {
+        text-align: center;
+        color:rgb(255, 167, 38);
+    }
+    .img1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    .img2 {
+        display: block;
+        width: 40%;
+    }
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
