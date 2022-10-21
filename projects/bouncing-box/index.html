@@ -8,7 +8,7 @@
         .box {
             width: 70px;
             height: 70px;
-            background-image: url("images/kanye.png");
+            background-image: url("images/kimkjungun.png");
             font-size: 300%;
             text-align: center;
             display: block;
@@ -18,7 +18,7 @@
         }
         .board{
             height: 100;
-            background-image: url("images/kimandkanye.v1.cropped.v4 (1).png");
+            background-image: url("images/kimandkanye.png");
         }
     </style>
     <!--    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -93,7 +93,7 @@
                     speed = speed * -1;
                 };
 
-                if (positionX <= 0) {
+                if (positionX < 0) {
                     speed = speed * -1;
                 };
 
@@ -101,7 +101,7 @@
                     speedY = speedY * -1;
                 };
 
-                if (positionY <= 0) {
+                if (positionY < 0) {
                     speedY = speedY * -1;
                 };
             };
