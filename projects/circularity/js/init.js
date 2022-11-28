@@ -35,16 +35,10 @@ var init = function (window) {
 
         // TODO 3 / 7 : Call the drawCircle() function 
             
-            for (var loopsCompleted = 0; loopsCompleted < 100; loopsCompleted++) {
+            for (var loopsCompleted = 0; loopsCompleted < 101; loopsCompleted++) {
                 drawCircle();
             }
-            
-         
 
-            // for (var i = 0; i < circles.length; i++){
-            //     drawCircle();
-            // }
-                    
 
                 // drawCircle();
 
@@ -72,7 +66,7 @@ var init = function (window) {
                 physikz.updatePosition(circles[i]);
                 game.checkCirclePosition(circles[i]);
             }
-               
+            //these were delted   
             // physikz.updatePosition(circles[1]);
             // physikz.updatePosition(circles[2]);
             // physikz.updatePosition(circles[3]);
@@ -81,7 +75,7 @@ var init = function (window) {
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
 
-            
+            //these were delteted
             // game.checkCirclePosition(circles[1]);
             // game.checkCirclePosition(circles[2]);
             // game.checkCirclePosition(circles[3]);
