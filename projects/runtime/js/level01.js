@@ -28,7 +28,24 @@ var level01 = function (window) {
         // TODO 6 and on go here
         // BEGIN EDITING YOUR CODE HERE
 
-        
+        function createSawBlade(x, y) {
+            var hitZoneSize = 25;
+            var damageFromObstacle = 10;
+            var sawBladeHitZone = game.createObstacle(hitZoneSize, damageFromObstacle);
+            sawBladeHitZone.x = 400;
+            sawBladeHitZone.y = 543;
+            game.addGameItem(sawBladeHitZone);
+    
+            var obstacleImage = draw.bitmap("img/blasterbolt.png");
+            sawBladeHitZone.addChild(obstacleImage);
+            obstacleImage.x = -60;
+            obstacleImage.y = -35;
+        };
+            createSawBlade(200, 300);
+            createSawBlade(300, 450);
+            createSawBlade(500, 600);
+
+       
         
         
         // DO NOT EDIT CODE BELOW HERE
